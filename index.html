@@ -7,7 +7,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    /* ===== Body & Theme ===== */
+   
     body {
       background: linear-gradient(to right, #ffe6f0, #fff0f5);
       min-height: 100vh;
@@ -19,12 +19,12 @@
       color: #f1f1f1;
     }
 
-    /* ===== Container ===== */
+  
     .container {
       margin-top: 50px;
     }
 
-    /* ===== Form ===== */
+
     .form-card {
       background-color: #fff0f5;
       border-radius: 15px;
@@ -41,7 +41,7 @@
       box-shadow: 0 0 5px #ff66b2;
     }
 
-    /* ===== Table ===== */
+  
     table {
       margin-top: 20px;
       background: #fff0f5;
@@ -58,14 +58,14 @@
       background-color: #ff66b2;
     }
 
-    /* ===== Buttons ===== */
+
     .btn-toggle {
       position: fixed;
       top: 15px;
       right: 15px;
     }
 
-    /* ===== Hover Effects ===== */
+
     .edit-btn:hover {
       background-color: #ff66b2 !important;
       color: #fff !important;
@@ -149,7 +149,7 @@
   let students = JSON.parse(localStorage.getItem('students')) || [];
   let editIndex = -1;
 
-  // ===== Functions =====
+
   function renderTable(list = students) {
     studentTable.innerHTML = '';
     list.forEach((student, index) => {
@@ -249,3 +249,4 @@
 
 </body>
 </html>
+
